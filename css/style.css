@@ -1,0 +1,122 @@
+/* Set a minimum height of 100vh */
+.vh-100 {
+    min-height: 100vh;
+}
+
+/* Define a fixed width of 400px with a background gradient */
+.w-400 {
+    width: 400px;
+    background: linear-gradient(to bottom right, #3498db, #2c3e50);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+/* Define a smaller font size */
+.fs-xs {
+    font-size: 1rem;
+}
+
+/* Define a 10% width with rounded corners */
+.w-10 {
+    width: 10%;
+    border-radius: 50%;
+    background: #e74c3c;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+/* Remove underlines from links */
+a {
+    text-decoration: none;
+}
+
+/* Define a large font size with a background gradient */
+.fs-big {
+    font-size: 5rem !important;
+    background: linear-gradient(to bottom right, #ecf0f1, #bdc3c7);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Online indicator with a glowing effect */
+.online {
+    width: 10px;
+    height: 10px;
+    background: #2ecc71;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(46, 204, 113, 0.6);
+}
+
+/* Define a 15% width */
+.w-15 {
+    width: 15%;
+}
+
+/* Define a smaller font size */
+.fs-sm {
+    font-size: 1.4rem;
+}
+
+/* Styling for small text with a subtle color */
+small {
+    color: #95a5a6;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+/* Styling for the chat box with scrollbars */
+.chat-box {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 50vh;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the right-aligned text in chat */
+.rtext {
+    width: 65%;
+    background: #ecf0f1;
+    color: #333;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Styling for the left-aligned text in chat */
+.ltext {
+    width: 65%;
+    background: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Custom scrollbar styling for webkit browsers */
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #bbb;
+    border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+/* Disable textarea resizing */
+textarea {
+    resize: none;
+}
+
